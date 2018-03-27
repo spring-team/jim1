@@ -1,0 +1,9 @@
+---
+applications:
+- name: jim1
+  command: "node server.js"
+  memory: 128M
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  env:
+    SUPPRESS_NO_CONFIG_WARNING: true
+    ATOMIST_TEAMS: T5964N9B7
