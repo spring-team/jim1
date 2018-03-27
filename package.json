@@ -1,0 +1,22 @@
+{
+  "name": "jim1",
+  "version": "0.1.0",
+  "description": "my new project",
+  "author": "Rod Johnson",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo builded!"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spring-team/jim1.git"
+  },
+  "homepage": "https://github.com/spring-team/jim1#readme",
+  "bugs": {
+    "url": "https://github.com/spring-team/jim1/issues"
+  }
+}
